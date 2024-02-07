@@ -7,5 +7,6 @@ export default defineConfig({
   base: "/personal_website_yt/",
   build: {
     outDir: "./docs",
+    // outDir: "./dist",
   },
 });
