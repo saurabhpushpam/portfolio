@@ -5,39 +5,48 @@ const Header = () => {
   const [menuLinks, setMenuLinks] = useState([
     {
       title: "Home",
-      link: "/home",
+      // link: "/home",
+      link: "/",
       id: 1,
     },
     {
       title: "About",
-      link: "/About",
+      // link: "/About",
+      link: "/",
       id: 2,
     },
     {
       title: "Skills",
-      link: "/skills",
+      // link: "/skills",
+      link: "/",
       id: 3,
     },
     {
       title: "Portfolio",
-      link: "/portfolio",
+      // link: "/portfolio",
+      link: "/",
       id: 4,
     },
     {
       title: "Contact",
-      link: "/Contact",
+      // link: "/Contact",
+      link: "/",
       id: 4,
     },
     {
       title: "About",
-      link: "/About",
+      // link: "/About",
+      link: "/",
       id: 4,
     },
   ]);
 
+
   const [actionButton, setActionButton] = useState({
-    title: "Download CV",
-    link: "/hire-me",
+    // title: "Download CV",
+    // link: "/hire-me",
+    title: "Contact Me",
+    link: "/",
   });
 
   return (

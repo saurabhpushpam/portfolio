@@ -64,8 +64,10 @@ const Banner = () => {
           <br />
           <a
             className=" text-2xl     px-3  py-2 bg-orange-500  rounded-full shadow-lg"
-            href="/contact"
+            // href="/contact"
+            href="https://wa.me/7631569363"
           >
+            {/* <a href="https://wa.me/7631569363" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a> */}
             Contact Me
           </a>
         </div>

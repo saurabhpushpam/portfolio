@@ -23,7 +23,11 @@ const Expertise = () => {
                 Passionate React.js and Node.js developer with expertise in crafting seamless user interfaces, robust backend solutions, and bridging the gap between frontend and backend technologies. Committed to continuous learning and collaborative success.
               </p>
               <button className=" text-2xl px-4 py-2 bg-orange-500 rounded-full shadow-lg">
-                Hire Me
+                {/* <a href="https://wa.me/7631569363"> */}
+                <a href="../resume.pdf" download>
+                  Download CV
+                </a>
+                {/* Contact Me */}
               </button>
             </div>
           </div>
